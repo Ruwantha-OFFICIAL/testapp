@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 
 # Port expose කරන්න (ඔබේ app එකේ port එකට වෙනස් කරන්න)
-EXPOSE 3000
+EXPOSE 8080
 
 # Start the app
 CMD ["npm", "start"]
